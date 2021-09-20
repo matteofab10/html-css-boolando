@@ -11,33 +11,48 @@
 }
 
 .container {
+  margin: auto;
   width: 58%;
-  height: 100%;
 }
 
 .box1, .box2, .box3 {
   float: left;
-  width: 33%;
+  width: 30%;
+  margin-right: 10px;
 }
 
 .box4, .box5, .box6 {
   float: left;
-  width: 33%;
+  width: 30%;
+  margin-right: 10px;
+  margin-top: 30px;
 }
 
 .img-size {
-  height: 500px;
+  width: 100%;
 }
 
 /*************** TEXT AREA *************/
 
-.content-p {
+.title-p {
   font-size: 10px;
   padding-top: 5px;
   margin-right: 5px;
 }
 
-.title-p {
-  padding-top: 5px;
-  margin-right: 5px;
+
+.content-p {
+  font-size: 10px;
+  font-weight: 50px;
+}
+
+.sale-text {
+  font-size: 10px;
+  font-weight: 50px;
+  color: red;
+}
+
+.price-text {
+  color: black;
+  text-decoration: line-through;
 }

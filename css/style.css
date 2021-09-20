@@ -16,12 +16,14 @@
 }
 
 .box1, .box2, .box3 {
+  position: relative;
   float: left;
   width: 30%;
   margin-right: 10px;
 }
 
 .box4, .box5, .box6 {
+  position: relative;
   float: left;
   width: 30%;
   margin-right: 10px;
@@ -30,6 +32,45 @@
 
 .img-size {
   width: 100%;
+}
+
+.heart {
+  font-size: 30px;
+  background-color: #fff;
+  position: absolute;
+  right: 0;
+  top: 15px;
+  padding: 10px 15px;
+}
+
+.sale-price {
+  font-size: 15px;
+  color: white;
+  background-color: #eb0037;
+  position: absolute;
+  left: 0;
+  bottom: 60px;
+  padding: 5px;
+}
+
+.sustainability {
+  font-size: 15px;
+  color: white;
+  background-color: #00875a;
+  position: absolute;
+  left: 45px;
+  bottom: 60px;
+  padding: 5px;
+}
+
+.sustainability2 {
+  font-size: 15px;
+  color: white;
+  background-color: #00875a;
+  position: absolute;
+  left: 0;
+  bottom: 60px;
+  padding: 5px;
 }
 
 /*************** TEXT AREA *************/
